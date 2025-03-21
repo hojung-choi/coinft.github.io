@@ -4,18 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoinFT - Open Source 6-Axis Sensor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #444;
+            max-width: 800px;
+            margin: 10px auto;
+            line-height: 1.6;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #666;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #444;
+        }
+
+        .video-container {
+            margin-top: 30px;
+        }
+
+        iframe {
+            width: 80%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>CoinFT: A Coin-Sized, Capacitive 6-Axis Force/Torque Sensor</h1>
     <p>CoinFT is accurate, slim, robust, and low-cost. Full details of the design, fabrication, firmware, and interfacing script in Python, C++, and MATLAB will be released once the paper is accepted.</p>
 
-    <!-- Embed YouTube Video -->
-    <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/e7eLOIBcH-s" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
+    <div class="button-container">
+        <a href="YOUR_PAPER_LINK.pdf" class="button">📄 Read the paper</a>
+        <a href="https://www.youtube.com/watch?v=e7eLOIBcH-s" class="button">▶️ Watch Video</a>
+    </div>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/e7eLOIBcH-s" allowfullscreen></iframe>
+    </div>
 
     <p>More details coming soon!</p>
 </body>
