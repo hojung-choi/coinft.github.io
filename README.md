@@ -1,2 +1,2 @@
 # coinft.github.io
-Open-source page for CoinFT.
+Full details of the design, fabrication, firmware, and interfacing script in Python, C++, and Matlab will be released once the paper is accepted.
